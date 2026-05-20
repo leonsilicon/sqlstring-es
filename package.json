@@ -1,6 +1,6 @@
 {
   "name": "sqlstring-es",
-  "version": "0.1.0",
+  "version": "2.4.0",
   "description": "ESM-only port of sqlstring with inlined TypeScript types",
   "keywords": [
     "sqlstring",
