@@ -1,7 +1,7 @@
 # sqlstring-es
 
 > **ESM rewrite of [`sqlstring`](https://www.npmjs.com/package/sqlstring)** with
-> inlined TypeScript types and no `node:buffer` dependency. API is one-for-one
+> inlined TypeScript types. API is one-for-one
 > compatible — `import SqlString from "sqlstring-es"` works the same as
 > `require("sqlstring")`, and the named exports are available too.
 
