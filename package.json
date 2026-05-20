@@ -1,0 +1,44 @@
+{
+  "name": "sqlstring-es",
+  "version": "0.1.0",
+  "description": "ESM-only port of sqlstring with inlined TypeScript types",
+  "keywords": [
+    "sqlstring",
+    "sql",
+    "escape",
+    "sql escape",
+    "esm"
+  ],
+  "homepage": "https://github.com/leonsilicon/sqlstring-es#readme",
+  "bugs": {
+    "url": "https://github.com/leonsilicon/sqlstring-es/issues"
+  },
+  "license": "MIT",
+  "author": "Leon <leon@leonsilicon.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonsilicon/sqlstring-es.git"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
